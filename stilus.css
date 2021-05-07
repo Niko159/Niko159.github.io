@@ -1,0 +1,650 @@
+body
+{
+    background-color: #FFDAB9;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+h2
+{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3
+{
+    font-size: 23px;
+    margin-left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr
+{
+    width: 55%;
+    border: 1px solid grey;
+}
+
+p
+{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong section
+{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+#bal
+{
+    height: auto;
+    width: 15%;
+    float: left;
+    margin-left: 15%;
+    border-radius: 8px;
+}
+
+#jobb
+{
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+#jobb:hover
+{
+    opacity: 0.7;
+}
+
+#idezet
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo
+{
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+}
+
+#logofigure
+{
+    margin: 0;
+}
+
+#hosszu-logo
+{
+    height: 65%;
+    width: 65%;
+    border-radius: 15px;
+}
+
+#hosszufigure
+{
+    margin: 0;
+}
+
+#menu
+{
+    background-color: #CD853F;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+#divbal
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#divjobb
+{
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+
+#felso
+{
+    height: 50%;
+}
+
+#also
+{
+    height: 50%;
+    padding-left: 10%;
+}
+
+.button {
+    background-color: #FFEFD5;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 27px;
+    margin: 0px 2px;
+    float: left;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid #CD853F;
+}
+
+#jelenlegi
+{
+    background-color: #CD853F;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 27px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#furulya
+{
+    float: right;
+    height: 60%;
+    width: auto;
+    margin-right: 10%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#furulya:hover, #oboa:hover
+{
+    box-shadow: 0 0 10px 3px rgba(0, 140, 186, 0.5);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#oboa
+{
+    float: left;
+    height: 60%;
+    width: auto;
+    margin-left: 6%;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#tablazat, td, th
+{
+    text-align: center;
+    border: 3px solid #CD853F;
+    border-collapse: collapse;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#tablazat th
+{
+    background-color: #FFEFD5;
+}
+
+.tablazatcenter
+{
+    margin-left: 20%;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.link
+{
+    color: #003366;
+}
+
+.link:hover
+{
+    background-color: #663300;
+    border-radius: 15px;
+}
+
+p .link:hover
+{
+    color: white;
+}
+
+p .link:active
+{
+    background-color: #663300;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.link:visited
+{
+    color: #663300;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.video
+{
+    position: relative;
+    overflow: hidden;
+    padding-top: 25%;
+    margin-left: 20%;
+    width: 60%;
+    /*
+    border: 3px solid red;
+    */
+}
+
+#video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.oszlop
+{
+    float: left;
+    width: 33%;
+    padding: 2px;
+ }
+  
+#sor::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.kepsor
+{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#kozepso
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.label
+{
+    text-align: left;
+    margin-left: 30%;
+    font-size: 20px;   
+}
+
+.input
+{
+    margin-left: 30%;
+    width: 25%;
+    height: 5%;
+    font-size: 20px;
+}
+
+#textarea
+{
+    margin-left: 30%;
+    width: 35%;
+    font-size: 20px;
+}
+
+#bg
+{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+#summary
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+#radio
+{
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.radio
+{
+    margin-right: 5%;
+}
+
+#checkbox
+{
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.checkbox
+{
+    margin-right: 15%;
+}
+
+input[type=radio]
+{
+    transform: scale(1.3);
+}
+
+input[type=checkbox] {
+    transform: scale(1.3);
+}
+
+#reset
+{
+    font-size: 30px;
+    margin-right: 5%;
+    background-color: lightcoral;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit
+{
+    font-size: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cross
+{
+    width: 5%;
+    height: 5%;
+    margin-left: 25%;
+}
+
+#tick
+{
+    width: 5%;
+    height: 5%;
+}
+
+/* JS-hez */
+  
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+  
+.modal-content
+{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+  
+#caption
+{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+.modal-content, #caption
+{  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom
+{
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom
+{
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+  
+.close
+{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover, .close:focus
+{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+@media only screen and (max-width: 700px)
+{
+    .modal-content
+    {
+        width: 100%;
+    }
+}
+
+footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CD853F;
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+    display: table;
+}
+
+#baldiv
+{
+    border-top: 2px solid black;
+    width: 33%;
+    display: table-cell;
+}
+
+#jobbdiv
+{
+    border-top: 2px solid black;
+    text-align: center;
+    width: 33%;
+    display: table-cell;
+}
+
+figure p
+{
+    color: black;
+    display: inline;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 20px;
+}
+
+.footerkep
+{
+    width: 10%;
+    height: 10%;    
+}
+
+details > summary
+{
+    list-style: none;
+}
+
+.videoleiras a
+{
+    color: #003366;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.videoleiras a:visited
+{
+    color: #663300;
+}
+
+.videoleiras a:hover
+{
+    background-color: #663300;
+    border-radius: 10px;
+    color: white;
+}
+
+.videoleiras a:active
+{
+    background-color: #663300;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.footerlink
+{
+    color: #000066;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: #000066;
+}
+
+.footerlink:visited
+{
+    color: #003300;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: #003300;
+}
+
+.footerlink:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.footerlink:active
+{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+strong
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.idegenszo span
+{
+    display: inline;
+}
+
+.kipozicional a
+{
+    position: absolute;
+    left: -9999px;
+}
+.kipozicional a:focus
+{
+    position: static;
+    background-color: #fff;
+}
+
+@media print
+{
+    body
+    {
+        color: black;
+        background-color:gold;
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+    }
+
+    p
+    {
+        float: none;
+        width: 90%;
+        text-align: justify;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    a:after
+    {
+        content: "(" attr(href) ")";
+    }
+  
+    footer
+    {
+        display: none;
+    }
+
+    video
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Főoldal - Illés Nikolasz honlapja</title>
+        <link rel="stylesheet" href="stilus.css">
+    </head>
+    <body>
+
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+
+    <nav>
+        <div id="menu">
+            <div id="divbal">
+                <figure id="logofigure">
+                    <img src="logo.png" alt="hangjegy logo" id="logo">
+                </figure>
+            </div>
+            <div id="divjobb">
+                <div id="felso">
+                    <figure id="hosszufigure">
+                        <img src="hosszu-logo.png" alt="Tavaszi szél vizet áraszt kotta részlet" id="hosszu-logo">
+                    </figure>
+                </div>
+
+                <div id="also">
+                    <div>
+                        <a href="#" class="button" id="jelenlegi">Főoldal</a>
+                    </div>
+                    <div>
+                        <a href="furulya-oboa.html" class="button">Furulya-Oboa</a>
+                    </div>
+                    <div>
+                        <a href="beatbox.html" class="button">Beatbox (szájdob)</a>
+                    </div>
+                    <div>
+                        <a href="urlap.html" class="button">Szabad értékelés</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="tartalom">
+    <h1>Bevezető gondolatok</h1>
+
+    <hr>
+
+    <p>Ez a weboldal elsősorban egy nagyobb beadandó munkának készül, de remélhetőleg, aki olvassa jobban megismer 1-2 hangszert és másfajta módszerét a hang lejátszásának.</p>
+
+    <section>
+        <h2>Miért pont zene témában készült az weboldal?</h2>
+
+        <p>Korábban már játszottam hangszeren és érdekel is a zene, ahogy sok más embert is, szóval egyrészt 
+            <strong>tapasztalat</strong> alapján, mert 
+            <strong>tetszik</strong>, másrészt meg a 
+            <strong>zenének különböző hatásai vannak az emberre</strong>. 
+            Ezalatt nem arra gondolok, hogy kinek mit kéne hallgatnia, mert nem erről van szó, hanem hogy a különböző zenei stílusok másfajta hangulatot válthatnak ki. Mindezek mellett a fő lényeg, hogy a zene jó terápiára is, mivel használható jó hatása miatt.</p>
+    </section>
+
+    <figure>
+        <img src="ZeneAzAgyra.jpg" id="bal" alt="egy kép hangjelekről az agy körül">
+    </figure>
+
+    <figure>
+        <img src="BalEsJobbTeke.jpg" alt="bal és jobb agyfélteke funkcióiról kép" id="jobb">    
+    </figure>
+
+    <section>
+        <p id="idezet">"A zenei észlelés nagyon szoros kapcsolatban áll az érzelmekkel. Képes az autonóm idegrendszer, valamint az immunrendszer működését befolyásolni."</p>
+    </section>
+
+    </main>
+
+    <footer>
+        <div id="baldiv">
+            <p>Elérhetőség:</p>
+            <figure>
+                <img src="gmail.png" class="footerkep" alt="gmail logo">
+                illesnikolasz16@gmail.com
+            </figure>
+        
+            <a href="https://www.facebook.com/illes.nikolasz/">
+                <figure>
+                    <img src="fb.png" class="footerkep" alt="facebook logo">
+                    <p class="footerlink">Nikolasz Illés</p>
+                </figure>
+            </a>
+        </div>
+        <div id="jobbdiv">
+            <p>Források:</p>
+            <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap">
+                <figure>
+                    <img src="wiki.png" class="footerkep" alt="Wikipédia logo">
+                    <p class="footerlink">Wikipédia</p>
+                </figure>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JS-hez a div és a script -->
+    <div id="Modal" class="modal">
+        <span class="close">&times;</span>
+        <figure>
+            <img src="BalEsJobbTeke.jpg" class="modal-content" id="modalimg" alt="előtérbe kerülő kép">
+        </figure>
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("Modal");
+        
+        var img = document.getElementById("jobb");
+        var modalImg = document.getElementById("modalimg");
+        var captionText = document.getElementById("caption");
+        img.onclick = function()
+        {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        span.onclick = function()
+        { 
+            modal.style.display = "none";
+        }
+
+        </script>
+    </body>
+</html>

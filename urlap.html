@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Szabad Értékelés - Illés Nikolasz honlapja</title>
+        <link rel="stylesheet" href="stilus.css">
+    </head>
+    <body id="bg">
+
+        <nav class="kipozicional">
+            <a href="#tartalom">Ugrás a tartalomra</a>
+        </nav>
+
+        <nav>
+            <div id="menu">
+                <div id="divbal">
+                    <figure id="logofigure">
+                        <img src="logo.png" alt="hangjegy logo" id="logo">
+                    </figure>
+                </div>
+                <div id="divjobb">
+                    <div id="felso">
+                        <figure id="hosszufigure">
+                            <img src="hosszu-logo.png" alt="Tavaszi szél vizet áraszt kotta részlet" id="hosszu-logo">
+                        </figure>
+                    </div>
+    
+                    <div id="also">
+                        <div>
+                            <a href="index.html" class="button">Főoldal</a>
+                        </div>
+                        <div>
+                            <a href="furulya-oboa.html" class="button">Furulya-Oboa</a>
+                        </div>
+                        <div>
+                            <a href="beatbox.html" class="button">Beatbox (szájdob)</a>
+                        </div>
+                        <div>
+                            <a href="#" class="button" id="jelenlegi">Szabad értékelés</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main id="tartalom">
+
+        <h1>ÉRTÉKELÉS</h1>
+
+        <section>
+            <p>Szabad értékelés:</p>
+
+            <p>Ezen az oldalon, ha szeretnéd értékelheted magát a weboldalt.</p>
+            <p>Bármilyen észrevétel, építőjellegű kritika, kulturáltan megfogalmazott véleményt szívesen fogadok. :)</p>
+        </section>
+
+        <form action="mailto:illesnikolasz16@gmail.com" method="post">
+            <label class="label">Neved:</label>
+            <br>
+            <input type="text" class="input" maxlength="20">
+            <br><br>
+
+            <label class="label">Email-ed:</label>
+            <br>
+            <input type="text" class="input" maxlength="35">
+            <br><br>
+
+            <label class="label">Vélemény:</label>
+            <br>
+            <textarea id="textarea" maxlength="200" rows="6"></textarea>
+            <br><br>
+
+            <p>Kérlek értékeld mennyire tetszett a weblapom 1-5-ig (1 Egyáltalán nem – 5 Nagyon tetszik)</p>
+            <div id="radio">
+                <input type="radio" name="tetszik">
+                <label class="radio">Egyáltalán nem</label>
+                <input type="radio" name="tetszik">
+                <label class="radio">Nem tetszik</label>
+                <input type="radio" name="tetszik">
+                <label class="radio">Elmegy</label>
+                <input type="radio" name="tetszik">
+                <label class="radio">Tetszik</label>
+                <input type="radio" name="tetszik">
+                <label class="radio">Nagyon tetszik</label>
+            </div>
+
+            <br>
+
+            <p>Mely hangszerek / zeneképzési lehetőségek tetszettek a legjobban:</p>
+            <div id="checkbox">
+                <input type="checkbox" name="hangszer1">
+                <label class="checkbox">Furulya</label>
+                <input type="checkbox" name="hangszer2">
+                <label class="checkbox">Oboa</label>
+                <input type="checkbox" name="hangszer3">
+                <label class="checkbox">Beatbox (szájdobolás)</label>
+            </div>
+
+            <br><br>
+            <br><br>
+
+            <img src="cross.png" id="cross" alt="X mint kép">
+            <input type="reset" value="Alaphelyzet" id="reset">
+            <input type="submit" value="Elküldés" id="submit">
+            <img src="tick.png" id="tick" alt="pipa mint kép">
+        </form>
+
+        </main>
+
+        <footer>
+            <div id="baldiv">
+                <p>Elérhetőség:</p>
+                    <figure>
+                        <img src="gmail.png" class="footerkep" alt="gmail logo">
+                        illesnikolasz16@gmail.com
+                    </figure>
+            
+                <a href="https://www.facebook.com/illes.nikolasz/">
+                    <figure>
+                        <img src="fb.png" class="footerkep" alt="facebook logo">
+                        <p class="footerlink">Nikolasz Illés</p>
+                    </figure>
+                </a>
+            </div>
+            <div id="jobbdiv">
+                <p>Források:</p>
+                <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap">
+                    <figure>
+                        <img src="wiki.png" class="footerkep" alt="Wikipédia logo">
+                        <p class="footerlink">Wikipédia</p>
+                    </figure>
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
